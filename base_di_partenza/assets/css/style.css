@@ -320,13 +320,13 @@ button {
   .calendario #calendario{
     display: inline-block;
     position: absolute;
-    top:10%;
+    bottom:87%;
     z-index: 11;
  }
  .calendario #plus{
   display: inline-block;
   position: absolute;
-  top: 20%;
+  bottom: 80%;
   z-index: 11;
  }
 }
