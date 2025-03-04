@@ -317,8 +317,19 @@ button {
   button {
     padding: 15px 30px;
   }
+  .calendario #calendario{
+    display: inline-block;
+    position: absolute;
+    top:10%;
+    z-index: 11;
+ }
+ .calendario #plus{
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+  z-index: 11;
+ }
 }
-
 /* ELEMENTI NELL' ASIDE */
 aside h2 {
   text-align: center;
@@ -362,7 +373,7 @@ footer {
  .icone {
   position: fixed;
   right: 0;
-  padding: 5px;
+  padding: 8px;
   color: red;
   border: 2px white;
   margin: 5px 0;
@@ -371,10 +382,10 @@ footer {
   bottom: 0;
   border-radius: 25%;
 }
- .calendario {
+ #calendario {
   position: fixed;
   right: 0;
-  padding: 5px;
+  padding: 8px;
   color: blue;
   border: 2px white;
   background-color:white;
@@ -384,10 +395,10 @@ footer {
   border-radius: 25%;
   
 }
- .plus {
+ #plus {
   position: fixed;
   right: 0;
-  padding: 5px;
+  padding: 8px;
   color: blue;
   border: 2px white;
   margin: 5px 0;
